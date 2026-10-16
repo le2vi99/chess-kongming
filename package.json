@@ -1,0 +1,25 @@
+{
+  "name": "chess-kongming",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "probe.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "node build.js",
+    "debug:launch": "bash tools/debug/launch-chrome.sh",
+    "debug:inspect": "node tools/debug/inspect.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chess.js": "1.4.0"
+  },
+  "devDependencies": {
+    "chrome-remote-interface": "^0.34.0",
+    "esbuild": "^0.28.2",
+    "jsdom": "^29.1.1",
+    "vitest": "^4.1.11"
+  }
+}

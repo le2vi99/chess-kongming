@@ -1,0 +1,8 @@
+node_modules/
+dist/
+vendor/
+output*.txt
+.debug-chrome-profile/
+output/
+.DS_Store
+.claude/
